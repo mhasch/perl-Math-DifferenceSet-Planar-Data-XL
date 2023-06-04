@@ -1,0 +1,12 @@
+CONTRIBUTING
+Changes
+LICENSE
+MANIFEST
+Makefile.PL
+README
+lib/Math/DifferenceSet/Planar/Data/XL.pm
+share/extra_2M.db
+share/extra_2M.pod
+share/pds_12400.db
+share/pds_12400.pod
+t/13_mdp_data_xl.t

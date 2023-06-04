@@ -1,0 +1,41 @@
+Math-DifferenceSet-Planar-Data-XL
+=================================
+
+This package is a data extension for the perl distribution
+Math-DifferenceSet-Planar.  It provides additional precomputed data.
+This is not essential to the aforementioned distribution but greatly
+enhances it, at the cost of about 700 MB of disk space.
+
+INSTALLATION
+
+To install this module type the following:
+
+   perl Makefile.PL
+   make
+   make test
+   make install
+
+DEPENDENCIES
+
+This module requires no other modules and libraries at run-time.  It only
+will make sense together with Math::DifferenceSet::Planar, of course.
+To build and install, it needs:
+
+  ExtUtils::MakeMaker
+  File::Spec
+  FindBin
+  Math::DifferenceSet::Planar
+  Test::More
+
+COPYRIGHT AND LICENCE
+
+Copyright (c) 2022-2023 by Martin Becker, Blaubeuren.
+
+This library is free software; you can redistribute it and/or modify
+under the terms of the Artistic License 2.0 (see the LICENSE file).
+
+DISCLAIMER OF WARRANTY
+
+This library is distributed in the hope that it will be useful, but
+without any warranty; without even the implied warranty of merchantability
+or fitness for a particular purpose.

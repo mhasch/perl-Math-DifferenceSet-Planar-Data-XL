@@ -1,0 +1,61 @@
+Contributing to Math-DifferenceSet-Planar-Data-XL
+=================================================
+
+Thank you for your interest in contributing to this Perl 5
+library.  Currently, it is in active development and maintained
+by its original author.  Bug reports (with or without patch),
+suggestions, feature requests, and comments are welcome.  You may
+submit them through this distribution's bug tracker on github:
+https://github.com/mhasch/perl-Math-DifferenceSet-Planar-Data-M/issues
+
+You can also reach the author by e-mail:
+Martin Becker, <becker-cpan-mp (at) cozap.com>
+
+The code for this distribution is hosted at GitHub.  The repository is:
+https://github.com/mhasch/perl-Math-DifferenceSet-Planar-Data-XL
+
+If your contribution is accepted, you will be mentioned by name under
+ACKNOWLEDGEMENTS in the documentation.  Please indicate if you prefer
+an alias or to stay anonymous.
+
+Git Repositories
+----------------
+
+This library is a part of the Math-DifferenceSet-Planar project.
+It is maintained in these repositories:
+
+* perl-Math-DifferenceSet-Planar
+
+  The base library with everything needed to create its CPAN distribution.
+  Also the place where changes and new features are discussed.
+
+* perl-Math-DifferenceSet-Planar-Data-M
+
+  An extension that deploys a somewhat larger database of precomputed
+  data to a place where it will be found by the base library.
+
+* perl-Math-DifferenceSet-Planar-Data-L
+
+  An extension that deploys a significantly larger database of precomputed
+  data to a place where it will be found by the base library.  It covers
+  all orders that can be handled with 32-bit integer arithmetic.
+
+* perl-Math-DifferenceSet-Planar-Data-XL
+
+  An extension that deploys the largest currently available database of
+  precomputed data to a place where it will be found by the base library.
+
+Information for Developers
+--------------------------
+
+For more information on development guidelines, the development platform,
+topics of interest, and the current roadmap, please consult the
+documentation of the base library, which can be found on CPAN and GitHub.
+
+Author's Note
+-------------
+
+Thanks again for your interest.
+I am looking forward to your report or e-mail.
+
+Martin Becker, December 30, 2022.
