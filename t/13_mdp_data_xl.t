@@ -37,7 +37,7 @@ is($sx, 1, 'std reference 59049');
 
 $count = eval { Math::DifferenceSet::Planar->set_database($file2) };
 diag($@) if !defined $count;
-is($count, 2, 'extra database available');
+is($count, 3, 'extra database available');
 
 $ds = Math::DifferenceSet::Planar->std_reference(2096993);
 $sx = $ds && $ds->lambda;

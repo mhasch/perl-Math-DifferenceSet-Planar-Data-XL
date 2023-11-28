@@ -1,4 +1,7 @@
 Revision history for Perl extension Math::DifferenceSet::Planar::Data::XL
 
+1.001   2023-11-28
+	extend extra_2M database
+
 1.000   2023-07-08
 	initial release in sync with Math-DifferenceSet-Planar-1.000

@@ -4,7 +4,7 @@ use 5.010000;
 use strict;
 use warnings;
 
-our $VERSION = '1.000';
+our $VERSION = '1.001';
 
 1;
 __END__
@@ -26,8 +26,9 @@ The first one, C<pds_12400.db>, extends the default collection
 of samples up to order 131449 (slightly above 2 ** 17).
 
 The second one, C<extra_2M.db>, provides some sample sets of orders
-between two million and 2 ** 21.  Currently, there are two sets.
-Their orders are 2096993 and 2097023.  Future releases may add more sets.
+between two million and 2 ** 21.  Currently, there are three sets.
+Their orders are 2096993, 2097023, and 2097152.  Future releases may
+add more sets.
 
 All sample sets come with standard references and rotator spaces.
 Currently, 1394 small sets also have lex references and 644 small sets
